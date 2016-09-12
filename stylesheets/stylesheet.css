@@ -69,11 +69,14 @@ a {
   height: 100%;
   display:block;
   background-color: rgba(134, 15, 34, .7);
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(255, 255, 255, .7);
   position: absolute;
   top: 0;
   left: 0;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, .4);
 }
+
+
 .hero {
   position: relative;
   z-index: 2;
@@ -234,9 +237,12 @@ a {
     font-size: 1.6em;
   }
   .page-header h2 {
-  color: #31cc7f;
+  color: #b52a1d;
   font-weight: 500;
   margin: 10px auto 0;
+  }
+  .page-header h1 {
+    color: #000;
   }
 
   .page-header h2:before {
@@ -321,7 +327,7 @@ section.item img {
 .site-footer-owner {
   display: block;
   font-weight: bold;
-  float:right 
+  float:right
 }
 
 .site-footer-credits {
